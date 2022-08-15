@@ -1,9 +1,301 @@
-.top {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans;
+}
+
+header {
+    font-family: Raleway;
+}
+
+.ori {
+    height: 90vh;
+    margin-bottom: 20px;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lookout {
+    margin-left: -360px;
+}
+
+.collection {
+    margin-right: -360px;
+}
+
+.collection > a {
+    text-decoration: none;
+    color: hsl(224, 93%, 58%);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.pail-one {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
-nav {
-    display: block;
+.image-pail-one > img {
+    width: 500px;
+}
+
+.clt-pail {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clt-pail > input {
+    width: 350px;
+    margin-right: 20px;
+    padding: 12px 28px;
+    outline-width: 0;
+    border: 2px solid hsl(238, 22%, 44%);
+    font-weight: 400;
+}
+
+.text-pail-one > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 20px;
+}
+
+.text-pail-one > p {
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(238, 22%, 44%);
+    margin-bottom: 5px;
+}
+
+.clt-pail > button {
+    width: 180px;
+    padding: 12px 28px;
+    margin-right: 25px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.pail-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+    height: 90vh;
+}
+
+.text-pail-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-pail-two > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 20px;
+}
+
+.text-pail-two > p {
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(238, 22%, 44%);
+    margin-bottom: 20px;
+}
+
+.text-pail-two > button {
+    padding-bottom: 5px;
+    outline-width: 0;
+    border: none;
+    background: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.image-pail-two > img {
+    width: 500px;
+}
+
+.review-testifer-pail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.review-testifer-pail > img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.review-pail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #88888888;
+}
+
+.review-pail > img {
+    margin-bottom: 12px;
+}
+
+.testifer-data {
+    margin-left: 10px;
+    columns: hsl(243, 87%, 12%);
+}
+
+.testifer-name {
+    font-weight: 800;
+}
+
+.invitation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    padding: 30px 20px;
+    height: 40vh;
+}
+
+.email-pail-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-pail-three > input {
+    width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.email-pail-three > button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 2px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.text-pail-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-pail-three > h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.text-pail-three > p {
+    color: hsl(240, 75%, 98%);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.pail-four {
+    background-color: hsl(243, 87%, 12%);
+    height: 40vh;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lock {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-pail-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.phone-pail-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.phone-pail-four > img {
+    margin-right: 10px;
+}
+
+.email-pail-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-pail-four > img {
+    margin-right: 10px;
+}
+
+.social-pail-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.social-pail-four > a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+    margin-bottom: 10px;
+}
+
+.media-pail-four {
+    display: flex;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#apart {
+    width: 47px;
+    margin-left: 2px;
+}
+
+#separate {
+    margin-left: 90px;
+    padding-bottom: 10px;
+    cursor: pointer;
 }
